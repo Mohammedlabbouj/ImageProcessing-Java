@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HistogramLabel",
+            "request": "launch",
+            "mainClass": "HistogramLabel",
+            "projectName": "JavaImages_2cf5d887"
+        },
+        {
+            "type": "java",
+            "name": "ImageProcessing",
+            "request": "launch",
+            "mainClass": "com.example.ImageProcessing",
+            "projectName": "JavaImages_2cf5d887"
+        },
+        {
+            "type": "java",
+            "name": "ImageProcessingUI",
+            "request": "launch",
+            "mainClass": "com.example.ImageProcessingUI",
+            "projectName": "JavaImages_2cf5d887"
+        }
+    ]
+}
