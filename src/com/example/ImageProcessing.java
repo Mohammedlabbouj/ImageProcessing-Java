@@ -49,16 +49,6 @@ public class ImageProcessing {
         tb = new int[height][width];
     }
 
-    public static void main(String[] args) throws IOException {
-        ImageProcessing imageProcessing = new ImageProcessing(
-                new File("C:\\Users\\XPRISTO\\Pictures\\chessboard.jpg"));
-
-        imageProcessing.susanCornerDetection();
-
-        ImageIO.write(imageProcessing.image, "jpg", new File("C:\\Users\\XPRISTO\\Pictures\\hello.jpg"));
-        System.out.println("Done");
-    }
-
     public void getRGB(int j, int i) {
         int pixel = this.image.getRGB(j, i);
         rgb[0] = (pixel >> 16) & 0xff;
